@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, .9);
+}
+
+.nav-item {
+    margin: 0 30px;
+}
+
+.hero__container {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0;
+    margin-bottom: 10px;
+}
+
+.hero__container>img {
+    margin: 0 50px;
+}
+
+.hero__secondContainer {
+    display: flex;
+    justify-content: center;
+    background-image: url("images/iphone_12.jpg");
+    background-position: center;
+    width: 100%;
+    height: 65vh;
+    margin-bottom: 10px;
+}
+
+.hero__secondContainer>.text-light {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.hero__secondContainer>.text-light>.h3 {
+    margin-bottom: 15px;
+}
+
+.hero__secondContainer>.text-light>.lead {
+    margin: 0;
+}
+
+.hero__thirdContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fbfbfd;
+}
+
+.hero__thirdContainer>.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.hero__thirdContainer>.top>img {
+    margin: 30px 0;
+}
+
+.hero__thirdContainer>.bottom {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.hero__thirdContainer>.bottom>img {
+    margin: 0 50px;
+}
+
+.showcase__gallery {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.showcase__gallery>.row {
+    width: 100%;
+    display: flex;
+    margin: 7px 0;
+}
+
+.showcase__gallery>.row>.col {
+    flex: .5;
+    min-height: 500px;
+    max-height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    transition: transform .3s;
+    cursor: pointer;
+    padding: 0 7px;
+}
+
+.showcase__gallery>.row>.col:hover {
+    transform: scale(.99);
+}
+
+.showcase__gallery>.row>.col>.text-dark {
+    position: absolute;
+    top: 20px;
+    text-align: center;
+}
+
+.showcase__gallery>.row>.col>.text-dark>.display-4 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.showcase__gallery>.row>.col>.text-dark>.lead {
+    margin: 0;
+}
+
+.showcase__gallery>.row>.col>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.products__showcase {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.products__showcase>.product {
+    max-width: 300px;
+    min-width: 300px;
+    min-height: 500px;
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
